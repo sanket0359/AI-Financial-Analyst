@@ -1,20 +1,33 @@
-# 📈 AI Financial News Analyst
-An AI-powered dashboard that fetches real-time stock news and uses **Llama 3.3** (via Groq) to perform sentiment analysis.
+# 📈 AI Financial News & Market Analyst
 
-## 🚀 Features
-- **Real-time Data:** Fetches news directly from Yahoo Finance.
-- **AI Insights:** Provides a Bullish/Bearish verdict with confidence scores.
-- **Interactive Visuals:** Dynamic pie charts and metrics using Streamlit and Plotly.
-- **Weekend Aware:** Intelligent handling of market-closed hours.
+An AI-driven intelligence dashboard that provides a 360-degree view of stock market health. By combining **Live Price Metrics** (Structured Data) with **LLM Sentiment Analysis** (Unstructured Data), this tool helps investors quantify market "mood" during periods of high volatility.
 
-## 🛠️ Tech Stack
-- **Language:** Python
-- **AI Model:** Llama-3.3-70b-versatile (Groq API)
-- **Frontend:** Streamlit
-- **Data Viz:** Plotly & Pandas
+---
 
-## ⚙️ Installation
-1. Clone the repo: `git clone https://github.com/YOUR_USERNAME/AI-Financial-Analyst.git`
-2. Install requirements: `pip install -r requirements.txt`
-3. Add your Groq API key to a `.env` file.
-4. Run: `streamlit run app.py`
+## 🚀 Core Features
+
+* **Live Market Metrics:** Real-time tracking of Today's Open, High, Low, and Current Price using `yfinance`.
+* **Dynamic Change Indicators:** Instant visualization of price movement with color-coded "Day Change" metrics (Green/Red).
+* **AI-Powered Sentiment:** Leverages **Llama 3.3 70B** (via Groq) to analyze the latest headlines and provide a professional financial verdict.
+* **Dual-Signal Dashboard:** Displays both numerical price action and textual news sentiment side-by-side.
+* **Security Focused:** Implements environment variable management (`.env`) to ensure API credentials remain private.
+
+---
+
+## 🛠️ Technical Stack
+
+* **Frontend:** Streamlit (Python-based Web Framework)
+* **AI/NLP:** Groq API (Model: `llama-3.3-70b-versatile`)
+* **Data Sources:** Yahoo Finance (via `yfinance`)
+* **Processing:** Pandas & NumPy
+* **Visualization:** Plotly Express
+* **Version Control:** Git & GitHub
+
+---
+
+## ⚙️ How to Run Locally
+
+1. **Clone the Project:**
+   ```bash
+   git clone [https://github.com/sanket0359/AI-Financial-Analyst.git](https://github.com/sanket0359/AI-Financial-Analyst.git)
+   cd AI-Financial-Analyst
