@@ -25,9 +25,3 @@ An AI-driven intelligence dashboard that provides a 360-degree view of stock mar
 
 ---
 
-## ⚙️ How to Run Locally
-
-1. **Clone the Project:**
-   ```bash
-   git clone [https://github.com/sanket0359/AI-Financial-Analyst.git](https://github.com/sanket0359/AI-Financial-Analyst.git)
-   cd AI-Financial-Analyst
