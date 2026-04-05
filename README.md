@@ -22,6 +22,5 @@ An AI-driven intelligence dashboard that provides a 360-degree view of stock mar
 * **Processing:** Pandas & NumPy
 * **Visualization:** Plotly Express
 * **Version Control:** Git & GitHub
-
 ---
 
